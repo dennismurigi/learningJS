@@ -1,2 +1,2 @@
-#LEARNING JAVASCRIPT
-With this respirotory, I aim to learn the basics of javascript.
+# LEARNING JAVASCRIPT
+With this repository, I aim to learn the basics of javascript.
