@@ -39,3 +39,36 @@ fruits[3] = 'pineapples';
 fruits.push('mangoes');
 fruits.unshift('strawberries');
 console.log(fruits[1], fruits[3], fruits[4], fruits[0], fruits.indexOf('strawberries'));
+
+//object literals
+const user = {
+    name: 'Dennis Mwangi',
+    age: '25',
+    hobbies: ['dancing', 'music'],
+    address:{
+        box: '123',
+        town: 'kerugoya'
+    }
+}
+user.email = 'me@dennismwangi.com'
+console.log(user)
+
+const toDos = [
+    {
+        id: '1',
+        item: 'meet ken'
+    },
+    {
+        id: '2',
+        item: 'meet boss'
+    }
+]
+console.log(toDos[0].item)
+
+//JSON has double qoutes around both the var and value
+
+//loops
+for(let toDo of toDos){
+    console.log(toDo.item)
+}
+
